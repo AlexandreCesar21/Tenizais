@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <title>Tenizais</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="links">     
+            <h1 class="titulo">Tenizais</h1>
+            <div class="opçoes">
+                <ul class="menu">
+                    <li class="menu__item" data-sub="product"><a href="#">Tênis</a></li>
+                    <li class="menu__item" data-sub="developer"><a href="#">Marcas</a></li>
+                    <li class="menu__item" data-sub="company"><a href="#">Masculino</a></li>
+                    <li class="menu__item" data-sub="company1"><a href="#">Feminino</a></li>
+                  </ul>
+                  <div class="dropdown-holder">
+                    <div class="dropdown__arrow"></div>
+                    <div class="dropdown__bg">
+                      <div class="dropdown__bg-bottom"></div>
+                    </div>
+                    <div class="dropdown__wrap">
+                      <div class="dropdown-menu" id="product" data-sub="product">
+                        <div class="dropdown-menu__content">
+                          <div class="top-section">
+                            <div class="col-2">
+                                <div>
+                                  <h2 class="menu-title">Coleções</h2>
+                                  <ul>
+                                      <li><a href="#">Jordan</a></li>
+                                      <li><a href="#">adidas Stan Smith</a></li>
+                                      <li><a href="#">adidas Superstar</a></li>
+                                      <li><a href="#">adidas ZX</a></li>
+                                      <li><a href="#">Converse Chuck Taylor 70</a></li>
+                                      <li><a href="#">Nike Air Force</a></li>
+                                      <li><a href="#">Nike Air Max</a></li>
+                                      <li><a href="#">Nike Lebron</a></li>
+                                      <li><a href="#">Puma RS</a></li>
+                                      <li><a href="#">Puma Suede</a></li>
+                                      <li><a href="#">Vans Authentic</a></li>
+                                      <li><a href="#">Vans Old Skool</a></li>
+                                    </ul>
+                                  </div>
+                                  <div>
+                                    <h2 class="menu-title">Especiais</h2>
+                                    <ul>
+                                      <li><a href="#">Jordan</a></li>
+                                      <li><a href="#">KD</a></li>
+                                      <li><a href="#">PG</a></li>
+                                      <li><a href="#">Lebron James</a></li>
+                                      <li><a href="#">Vans x</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="bottom-section">
+                                <h3>Tamanhos</h3>
+                                
+                                <ul class="tamanhos">
+                                    <li><a href="#">33</a></li>
+                                    <li><a href="#">34</a></li>
+                                    <li><a href="#">35</a></li>
+                                    <li><a href="#">36</a></li>
+                                    <li><a href="#">37</a></li>
+                                    <li><a href="#">38</a></li>
+                                </ul>
+                                <ul class="tamanhos">
+                                  <li><a href="#">39</a></li>
+                                  <li><a href="#">40</a></li>
+                                  <li><a href="#">41</a></li>
+                                  <li><a href="#">42</a></li>
+                                  <li><a href="#">43</a></li>
+                                  <li><a href="#">44</a></li>
+                                  <li><a href="#">45</a></li>
+                                  <li><a href="#">46</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="dropdown-menu" id="developer" data-sub="developer">
+                        <div class="dropdown-menu__content">
+                          <div class="top-section">
+                            <div class="col-2">
+                              <div class="marcas">
+                                <h4 class="titulo-marca">Todas as marcas</h4>
+                                <br>
+                                <br>
+                                
+                                <div class="adidas">
+                                    <a href="#">
+                                    <img src="marcas/adidas.png" alt="adidas">
+                                  </a>
+                                  </div>
+                                <div class="nike">
+
+                                  <a href="#">
+                                    <img src="marcas/nike.png" alt="nike">
+                                  </a>
+                                </div>
+
+                                <div class="puma">
+                                  <a href="#">
+                                    <img src="marcas/puma.png" alt="puma">
+                                  </a>
+                                </div>
+
+                                <div class="under">
+                                  <a href="#">
+                                    <img src="marcas/under-armour.png" alt="under armour">
+                                  </a>
+                                </div>
+
+                                <div class="vans">
+                                  <a href="#">
+                                    <img src="marcas/vans.png" alt="vans">
+                                  </a>
+                                </div>
+
+                                <div class="air">
+                                  <a href="#">
+                                    <img src="marcas/Air-Jordan.png" alt="Air">
+                                  </a>
+                                </div>
+                                
+                                <div class="converse">
+                                  <a href="#">
+                                    <img src="marcas/converse.png" alt="converse"> 
+                                  </a>
+                                </div>
+
+                                <div class="new-balance">
+                                  <a href="#">
+                                    <img src="marcas/new-balance.png" alt="new-balance">
+                                  </a>
+                                </div>
+
+                                <div class="umbro">
+                                  <a href="#">
+                                    <img src="marcas/Umbro.png" alt="umbro">
+                                  </a>
+                                </div>
+
+
+                              </div>
+                             
+                            
+                              <div class="bottom-section"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown-menu" data-sub="company">
+                        <div class="dropdown-menu__content">
+                          <div class="top-section">
+                            <div class="estilos">
+                              <ul style="margin-left: 15px;">
+                                <h3 class="titulo-estilo">Estilos</h3>
+                                <li><a href="#">Basquete</li></a>  
+                                <li><a href="#">Skate</a></li>
+                                <li><a href="#">Casual</a></li> 
+                              </ul>
+                            </div>
+                            <div class="linha1">
+                              <h2 class="menu-title">Coleções</h2>
+                              <ul>
+                                  <li><a href="#">Jordan</a></li>
+                                  <li><a href="#">adidas Stan Smith</a></li>
+                                  <li><a href="#">adidas Superstar</a></li>
+                                  <li><a href="#">adidas ZX</a></li>
+                                  <li><a href="#">Converse Chuck Taylor 70</a></li>
+                                  <li><a href="#">Nike Air Force</a></li>
+                                  <li><a href="#">Nike Air Max</a></li>
+                                  <li><a href="#">Nike Kyrie</a></li>
+                                  <li><a href="#">Puma Suede</a></li>
+                                  <li><a href="#">Puma Wild Rider</a></li>
+                                  <li><a href="#">Vans Authentic</a></li>
+                                  <li><a href="#">Vans Old Skool</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                          <div class="bottom-section">
+                            <ul class="tamanhosM" style="margin-right: -20px;">
+                              <h2 class="menu-title">Tamanhos</h2>
+                              <li><a href="#">38</a></li>
+                              <li><a href="#">39</a></li>
+                              <li><a href="#">40</a></li>
+                              <li><a href="#">41</a></li>
+                              <li><a href="#">42</a></li>
+                              <li><a href="#">43</a></li>
+                              <li><a href="#">44</a></li>
+                              <li><a href="#">45</a></li>
+                              <li><a href="#">46</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown-menu" data-sub="company1">
+                        <div class="dropdown-menu__content">
+                          <div class="top-section">
+                             <div class="estilos">
+                               <ul style="margin-left: 35px;">
+                                <h3 class="titulo-estilo">Estilos</h3>
+                                <li><a href="#">Basquete</li></a>  
+                                <li><a href="#">Skate</a></li>
+                                <li><a href="#">Casual</a></li> 
+                              </ul>
+                            </div>
+                            <div class="linha1">
+                              <h2 class="menu-title">Coleções</h2>
+                              <ul>
+                                  <li><a href="#">Jordan</a></li>
+                                  <li><a href="#">adidas Superstar Slinp on</a></li>
+                                  <li><a href="#">adidas Superstar</a></li>
+                                  <li><a href="#">adidas ZX</a></li>
+                                  <li><a href="#">Converse Run Start Hike</a></li>
+                                  <li><a href="#">Nike Air Force</a></li>
+                                  <li><a href="#">Nike Air Max</a></li>
+                                  <li><a href="#">Nike Blazer</a></li>
+                                  <li><a href="#">Puma RS</a></li>
+                                  <li><a href="#">Vans Authentic</a></li>
+                                  <li><a href="#">Vans Era</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                          <div class="bottom-section">
+                            <ul class="tamanhosM">
+                              <h2 class="menu-title">Tamanhos</h2>
+                              <li><a href="#">34</a></li>
+                              <li><a href="#">35</a></li>
+                              <li><a href="#">36</a></li>
+                              <li><a href="#">37</a></li>
+                              <li><a href="#">38</a></li>
+                              <li><a href="#">39</a></li>
+                              <li><a href="#">40</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pesquisa">
+                    <div class="pes">
+                        <span class="material-symbols-outlined">
+                          search
+                          </span>
+                    </div>
+                    <div>
+                        <input class="fulltext-search-box-ui-autocomplete-input" type="text" size="20" accesskey="b" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" placeholder="O que voçê esta procurando?">
+                    </div>
+                    <div class="login">
+
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                account_circle
+                            </span>
+                        </a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </header>
+      
+      <section class="shrink-section">
+        <div class="slideshow-container">
+            <div class="slide fade" class="propaganda"  >
+                <img src="Propaganda/adidas.jpg" alt="Imagem 1">
+            </div>
+
+            <div class="slide fade" >
+              <img src="Propaganda/Nike-Hyper.jpg" alt="Imagem 4">
+            </div>
+
+            
+            <div class="slide fade" >
+              <img src="Propaganda/puma.jpg" alt="Imagem 3">
+            </div>
+            
+            <div class="slide fade" class="propaganda">
+              <img src="Propaganda/PRO.jpg" alt="Imagem 2">
+            </div>
+
+            <div class="slide fade" >
+                <img src="Propaganda/armour.webp" alt="Imagem 5">
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="ti1">Produtos especiais para você</div>
+
+
+        <div class="seq">
+
+          <div class="item">
+            <div class="item_image"><img src="Tenis/tenis-adidas-superstar.png" alt=""></div>
+            <div class="item_titulo">Tênis Adidas Superstar</div>
+            <div class="item_caixa_preço">
+              <div class="item_info_preço">
+                <div class="item_risco_preço">
+                <span class="item_valor"> De R$649,90</span>
+                </div>
+                <div class="item_preco_valor"> 
+                  <span class="item_valor"> Por R$ 454,93</span> 
+                </div>
+              </div>
+            </div>
+            <div class="item_parcelado">
+              <span class="item_parcelado_valor">10x de</span>
+              <span>R$ 45,49 sem juros</span>
+            </div>
+            <div class="botao_quero">
+              <a href="#" class="botao">Eu quero</a>
+            </div>
+          </div>
+  
+  
+  
+  
+          <div class="item">
+            <div class="item_image"><img src="Tenis/chuteira-futsal-umbro.jpg" alt=""></div>
+            <div class="item_titulo">Chuteira Futsal Umbro</div>
+            <div class="item_caixa_preço">
+              <div class="item_info_preço">
+                <div class="item_risco_preço">
+                <span class="item_valor"> De R$539,90</span>
+                </div>
+                <div class="item_preco_valor"> 
+                  <span class="item_valor"> Por R$ 399,90</span> 
+                </div>
+              </div>
+            </div>
+            <div class="item_parcelado">
+              <span class="item_parcelado_valor">10x de</span>
+              <span>R$ 39,99 sem juros</span>
+            </div>
+            <div class="botao_quero">
+              <a href="#" class="botao">Eu quero</a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item_image"><img src="Tenis/tenis-new-balance.png" alt=""></div>
+            <div class="item_titulo">Tênis New Balance </div>
+            <div class="item_caixa_preço">
+              <div class="item_info_preço">
+                <div class="item_risco_preço">
+                <span class="item_valor"> De R$860,95</span>
+                </div>
+                <div class="item_preco_valor"> 
+                  <span class="item_valor"> Por R$ 699,90</span> 
+                </div>
+              </div>
+            </div>
+            <div class="item_parcelado">
+              <span class="item_parcelado_valor">10x de</span>
+              <span>R$ 69,99 sem juros</span>
+            </div>
+            <div class="botao_quero">
+              <a href="#" class="botao">Eu quero</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="home">
+          <ul>
+            <li>HOME</li>
+          </ul>
+        </div>
+
+        <div class="seq">
+          <div class="produto-container">
+              <div class="produto_imagem"><img src="Tenis/Tenis-Puma-RS.webp" alt=""></div>
+              <div class="nome_produto">Tênis Puma RS-X SUEDE MASCULINO</div>
+              <div class="produto_preço">R$ 799,90</div>
+              <div class="produto_parcela">10x R$ 79,99</div>
+              
+              <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>Comprar</a></div>
+          </div>
+
+          <div class="produto-container">
+            <div class="produto_imagem"><img src="Tenis/tenis1.webp" alt=""></div>
+            <div class="nome_produto">TÊNIS PUMA RS-X EFEKT EOC FEMININO</div>
+            <div class="produto_preço">R$ 699,99</div>
+            <div class="produto_parcela">10x R$ 69,99</div>
+            
+            <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>Comprar</a></div>
+        </div>
+
+
+        <div class="produto-container">
+          <div class="produto_imagem"><img src="Tenis/tenis2.webp" alt=""></div>
+          <div class="nome_produto">TÊNIS PUMA RS-X EFEKT PRM MASCULINO</div>
+          <div class="produto_preço">R$ 699,99</div>
+          <div class="produto_parcela">10x R$ 69,99</div>
+          
+          <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+          </svg>Comprar</a></div>
+      </div>
+        </div>
+        <div class="seq">
+          <div class="produto-container">
+              <div class="produto_imagem"><img src="Tenis/tenis3.webp" alt=""></div>
+              <div class="nome_produto">TÊNIS PUMA RS-X MIX MASCULINO</div>
+              <div class="produto_preço">R$ 599,99</div>
+              <div class="produto_parcela">10x R$ 59,99</div>
+              
+              <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>Comprar</a></div>
+          </div>
+
+          <div class="produto-container">
+            <div class="produto_imagem"><img src="Tenis/tenis4.webp" alt=""></div>
+            <div class="nome_produto">TÊNIS PUMA RS-X MIX MASCULINO</div>
+            <div class="produto_preço">R$ 599,99</div>
+            <div class="produto_parcela">10x R$ 59,99</div>
+            
+            <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>Comprar</a></div>
+        </div>
+
+
+        <div class="produto-container">
+          <div class="produto_imagem"><img src="Tenis/tenis5.webp" alt=""></div>
+          <div class="nome_produto">TÊNIS PUMA RS-X EFEKT INDIGO MASCULINO</div>
+          <div class="produto_preço">R$ 799,99</div>
+          <div class="produto_parcela">10x R$ 79,99</div>
+          
+          <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+          </svg>Comprar</a></div>
+      </div>
+        </div>
+        <div class="seq">
+          <div class="produto-container">
+              <div class="produto_imagem"><img src="Tenis/tenis6.webp" alt=""></div>
+              <div class="nome_produto">TÊNIS PUMA RS-Z MOLDED</div>
+              <div class="produto_preço">R$ 449,99</div>
+              <div class="produto_parcela">10x R$ 44,99</div>
+              
+              <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>Comprar</a></div>
+          </div>
+
+          <div class="produto-container">
+            <div class="produto_imagem"><img src="Tenis/tenis7.webp" alt=""></div>
+            <div class="nome_produto">TÊNIS PUMA RS-X MIX MASCULINO</div>
+            <div class="produto_preço">R$ 599,99</div>
+            <div class="produto_parcela">10x R$ 59,99</div>
+            
+            <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>Comprar</a></div>
+        </div>
+
+
+        <div class="produto-container">
+          <div class="produto_imagem"><img src="Tenis/tenis8.webp" alt=""></div>
+          <div class="nome_produto">TÊNIS PUMA RS-X MIX MASCULINO</div>
+          <div class="produto_preço">R$ 599,99</div>
+          <div class="produto_parcela">10x R$ 59,99</div>
+          
+          <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+          </svg>Comprar</a></div>
+      </div>
+        </div>
+        <div class="seq">
+          <div class="produto-container">
+              <div class="produto_imagem"><img src="Tenis/tenis9.webp" alt=""></div>
+              <div class="nome_produto">TÊNIS PUMA RS-X EFEKT PRM MASCULINO</div>
+              <div class="produto_preço">R$ 699,99</div>
+              <div class="produto_parcela">10x R$ 69,99</div>
+              
+              <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>Comprar</a></div>
+          </div>
+
+          <div class="produto-container">
+            <div class="produto_imagem"><img src="Tenis/tenis10.webp" alt=""></div>
+            <div class="nome_produto">TÊNIS PUMA RS-X TRIPLE</div>
+            <div class="produto_preço">R$ 599,99</div>
+            <div class="produto_parcela">10x R$ 59,99</div>
+            
+            <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>Comprar</a></div>
+        </div>
+
+
+        <div class="produto-container">
+          <div class="produto_imagem"><img src="Tenis/tenis11.webp" alt=""></div>
+          <div class="nome_produto">TÊNIS PUMA RS-X 3D MASCULINO</div>
+          <div class="produto_preço">R$ 599,99</div>
+          <div class="produto_parcela">10x R$ 59,99</div>
+          
+          <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+          </svg>Comprar</a></div>
+      </div>
+        </div>
+        <div class="seq">
+          <div class="produto-container">
+              <div class="produto_imagem"><img src="Tenis/tenis12.webp" alt=""></div>
+              <div class="nome_produto">TÊNIS PUMA RS-X EFEKT GRADIENT</div>
+              <div class="produto_preço">R$ 699,99</div>
+              <div class="produto_parcela">10x R$ 69,99</div>
+              
+              <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg>Comprar</a></div>
+          </div>
+
+          <div class="produto-container">
+            <div class="produto_imagem"><img src="Tenis/tenis13.webp" alt=""></div>
+            <div class="nome_produto">TÊNIS PUMA RS-X CANDY FEMININO</div>
+            <div class="produto_preço">R$ 699,99</div>
+            <div class="produto_parcela">10x R$ 69,99</div>
+            
+            <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>Comprar</a></div>
+        </div>
+
+
+        <div class="produto-container">
+          <div class="produto_imagem"><img src="Tenis/tenis14.webp" alt=""></div>
+          <div class="nome_produto">TÊNIS PUMA RS-X CANDY FEMININO</div>
+          <div class="produto_preço">R$ 699,99</div>
+          <div class="produto_parcela">10x R$ 69,99</div>
+          
+          <div class="butao_compra"><a href="#" class="compra"><svg xmlns="http://www.w3.org/2000/svg" id="car" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+          </svg>Comprar</a></div>
+      </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="titulo_local">
+          <h1 class="titulo_footer">Tenizais</h1>
+        </div>
+
+        <div class="seq">
+          <div class="img_jordan">
+            <img src="img-footer/jordan.jpg" alt="">
+          </div>
+          <div class="paragrfo">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptate temporibus aspernatur sequi facere, 
+            <br>
+            similique ipsa suscipit hic molestias sint placeat quis. Commodi, impedit animi incidunt perspiciatis delectus accusamus voluptates!
+          </div>
+        </div>
+
+        <div class="seq">
+          <div class="paragrfo2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <br>
+            Quia, repellendus iste ducimus dolor blanditiis,
+            <br>
+             asperiores distinctio saepe dolorem, 
+             <br>
+             facere rerum magnam labore! Illo omnis, alias animi ipsum ad quis reiciendis.
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sint, atque consequatur quisquam,
+            <br>
+             magnam nesciunt, aut sed modi doloremque cumque iusto nemo! 
+             <br>
+             Recusandae eveniet vitae facere sed, necessitatibus nobis voluptates.
+          </div>
+          <div class="img_adidas">
+            <img src="img-footer/adias-forum.jpg" alt="">
+          </div>
+        </div>
+          
+        <div class="seq">
+          <div class="img_air">
+            <img src="img-footer/air1.jpg" alt="">
+          </div>
+          <div class="paragrfo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br> 
+            Quis at hic maiores labore deserunt repellat eum sequi praesentium optio saepe 
+            <br>
+            explicabo accusamus laudantium provident, quam delectus eaque. Dolore, dolores quas!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum dolore, 
+            <br>
+            facilis excepturi temporibus molestiae obcaecati ducimus earum laborum sapiente sequi consequatur, 
+            <br>
+            blanditiis alias assumenda ad quidem exercitationem esse doloremque!
+          </div>
+        </div>
+
+
+
+        <div class="seqR">
+
+          <div class="insta">
+            <div class="meu_inst">
+              <img src="img-footer/insta.png" alt=""> 
+            </div>
+            
+            <div class="me_rede_insta">
+              <a href="#">Instagram</a> 
+            </div>
+          </div>
+          <div class="github">
+            
+              <img src="img-footer/github.png" alt="">
+            
+            <div class="me_rede_git">
+              <a href="#">GitHub</a> 
+            </div>
+          </div>
+          <div class="link">
+            <div class="meu_inst">
+              <img src="img-footer/linkdin.png" alt="">
+
+            </div>
+            
+              <div class="me_rede_link"> 
+                <a href="#">Linkedin</a> 
+              </div>
+          </div>
+        </div>
+        
+
+
+      </footer>
+</body>
+</html>
+<script src="script.js"></script>
+
+
+
+<!--
+
+
+
+
+-->
